@@ -1,0 +1,108 @@
+html {display:flex;
+    justify-content: center;
+    width:100%; 
+   }
+    
+body { 
+    max-width:650px; 
+    margin-bottom:0;
+    margin-left: 74px;
+    margin-right: 74px;
+    margin-top:0;
+
+}
+header {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+.form1 {
+    display:flex;
+    justify-content: flex-start;
+    flex-grow: inherit;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.first1 {
+    display:flex;
+    min-width:100%;
+    justify-items: flex-end;
+    flex-wrap: wrap;
+    margin-top:15px;
+}
+.faa {
+    display: flex;
+    width:72%;
+    align-self: flex-end;
+}
+.firstname1, .lastname1, .surname1, .birthdate1, .email1, .tel1, .country1, .adress1 {
+width: 29%;
+
+}
+.firstnamei1, .lastnamei1, .surnamei1, .birthdatei1, .gender1, .emaili1, .teli1, .countryi1, .adressi1, .accepti1 {
+    width: 70%;
+  
+}
+.firstnamei1:active, .lastnamei1:active, .surnamei1:active, .birthdatei1:active, .gender1:active, .emaili1:active, .teli1:active, .countryi1:active, .adressi1:active {
+border: 1px solid green;
+}
+.firstnamei1:focus, .lastnamei1:focus, .surnamei1:focus, .birthdatei1:focus, .gender1:focus, .emaili1:focus, .teli1:focus, .countryi1:focus, .adressi1:focus {
+    border: 1px solid green;
+    
+    }
+.firstnamei1, .lastnamei1, .surnamei1, .birthdatei1, .gender1, .emaili1, .teli1, .countryi1, .adressi1 {
+    border: 1px solid rgb(44, 139, 248);
+}
+@media screen and (max-width: 600px) {
+    .firstnamei1, .lastnamei1, .surnamei1, .birthdatei1, .gender1, .faa, .adressi1, .emaili1, .teli1, .countryi1,  .accepti1 {
+        width:100%; 
+    }
+} 
+
+} 
+#image1 {
+    position: absolute;
+    left:78% ;
+}
+.gender1 {
+    display:flex;
+    
+    padding-left: 3px;
+    padding-right: 0;
+    flex-wrap: wrap;
+    margin-right:0;
+} 
+.adressi1{
+    padding: 0;
+}
+footer {
+    display: flex;
+align-self: center;
+}
+.but1 {
+    background-color: rgb(16,92,254);
+    border:0;
+    width:187px;
+    height: 30px;
+    margin:15px;
+    color:white;
+}
+::-webkit-inner-spin-button {
+    display:none;
+}
+::-webkit-calendar-picker-indicator {
+    color: transparent;
+    opacity: 1; 
+    background: url(pics/CALM.svg) no-repeat center;
+    background-size: contain;
+    
+  }
+  ::-ms-expand {
+    padding: 2em;
+    color: red;
+    background: black;
+}

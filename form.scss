@@ -1,0 +1,46 @@
+.form1 {
+    display:flex;
+    justify-content: flex-start;
+    flex-grow: inherit;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.first1 {
+    display:flex;
+    min-width:100%;
+    justify-items: flex-end;
+    flex-wrap: wrap;
+    margin-top:15px;
+}
+.firstname1, .lastname1, .surname1, .birthdate1, .email1, .tel1, .country1, .adress1, .accept1 {
+width: 30%;
+
+}
+.firstnamei1, .lastnamei1, .surnamei1, .birthdatei1, .emaili1, .teli1, .countryi1, .adressi1, .accepti1 {
+    width: 70%;
+  
+}
+.firstnamei1:active, .lastnamei1:active, .surnamei1:active, .birthdatei1:active, .gender1:active, .emaili1:active, .teli1:active, .countryi1:active, .adressi1:active {
+border: 1px solid green;
+}
+.firstnamei1:focus, .lastnamei1:focus, .surnamei1:focus, .birthdatei1:focus, .gender1:focus, .emaili1:focus, .teli1:focus, .countryi1:focus, .adressi1:focus {
+    border: 1px solid green;
+    }
+.firstnamei1, .lastnamei1, .surnamei1, .birthdatei1, .gender1, .emaili1, .teli1, .countryi1, .adressi1 {
+    border: 1px solid rgb(44, 139, 248);
+}
+@media screen and (max-width: 600px) {
+    .firstnamei1, .lastnamei1, .surnamei1, .birthdatei1, .emaili1, .teli1, .countryi1, .adressi1, .accepti1 {
+        width:100%; 
+    }
+} 
+#image1 {
+    position: absolute;
+    left:78% ;
+}
+.gender1 {
+    display:block;
+    width:70%;
+    padding: 3px;
+    flex-wrap: wrap;
+} 

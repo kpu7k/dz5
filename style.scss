@@ -1,0 +1,17 @@
+@import "header.scss";
+@import "form.scss";
+@import "callender.svg";
+
+html {display:flex;
+    justify-content: center;
+    width:100%; 
+   }
+    
+body { 
+    max-width:650px; 
+    margin-bottom:0;
+    margin-left: 74px;
+    margin-right: 74px;
+    margin-top:0;
+
+}
